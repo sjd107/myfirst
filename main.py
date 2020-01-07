@@ -22,6 +22,8 @@ fo = open("post.txt", "w")
 fo.write(str(post_response))
 fo.close()
 
+print("aa")
+
 fo = open("text.txt", "w")
 fo.write(str(get_response.json))
 fo.close()
